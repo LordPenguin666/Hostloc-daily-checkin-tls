@@ -32,6 +32,6 @@ go.work
 
 config.json
 log.txt
-*.tar.gz
 loc
 .idea
+hostloc*
