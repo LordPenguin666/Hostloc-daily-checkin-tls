@@ -15,7 +15,7 @@ tar xvf hostloc-check-in-linux-amd64.tar.gz
 ### (2) 编译 (需要拥有 go 环境)
 ```shell
 git clone git@github.com:LordPenguin666/Hostloc-daily-checkin-tls.git
-cd HostLoc_CheckIn
+cd Hostloc-daily-checkin-tls
 make default
 ```
 
@@ -95,4 +95,4 @@ WantedBy=multi-user.target
   }
 }
 ```
-# Hostloc-daily-checkin-tls
+
