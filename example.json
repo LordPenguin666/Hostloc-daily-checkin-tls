@@ -4,7 +4,7 @@
   "telegram": {
     "enable": true,
     "api": "",
-    "chat_id": ""
+    "chat_id": 0
   },
   "accounts": [
     {"username": "第一个帐号名", "password": "密码"},
