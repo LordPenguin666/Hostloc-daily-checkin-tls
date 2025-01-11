@@ -9,7 +9,7 @@ type Config struct {
 
 type Telegram struct {
 	Enable bool   `json:"enable"`
-	API    string `json:"api"`
+	Token  string `json:"token"`
 	ChatID int64  `json:"chat_id"`
 }
 
