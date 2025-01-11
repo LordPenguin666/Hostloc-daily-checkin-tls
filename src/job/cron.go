@@ -115,7 +115,7 @@ func (j *Job) checkIn() {
 		return
 	}
 
-	if j.config.Telegram.API == "" || j.config.Telegram.ChatID == 0 {
+	if j.config.Telegram.Token == "" || j.config.Telegram.ChatID == 0 {
 		j.logger.Info("Telegram 配置不全, 取消推送")
 		return
 	}
@@ -127,7 +127,7 @@ func (j *Job) checkIn() {
 	messages = "[LOC 签到小助手]\n\n" + messages
 	fmt.Println(messages)
 
-	bot, err := tgbotapi.NewBotAPI(j.config.Telegram.API)
+	bot, err := tgbotapi.NewBotAPI(j.config.Telegram.Token)
 	if err != nil {
 		j.logger.Error("Telegram 推送通知失败! Error: " + err.Error())
 		return
