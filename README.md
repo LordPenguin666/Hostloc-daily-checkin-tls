@@ -90,8 +90,8 @@ WantedBy=multi-user.target
 {
   "telegram": {
     "enable": true, // 开启推送
-    "token": "这里填写 bot token",
-    "chat_id": "这里填写对话 id"
+    "token": "abcd12345", //这里填写 bot token
+    "chat_id": 114514 // 这里填写对话 id
   }
 }
 ```
